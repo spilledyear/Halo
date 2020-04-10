@@ -15,8 +15,8 @@
     <meta name="description" content="${description!}" />
     <@global.head />
     <link href="${static!}/source/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
-    <link rel="stylesheet" href="${static!}/source/css/blog_basic.min.css?version=88107691fe">
-    <link href="${static!}/source/css/style.min.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="${static!}/source/css/blog_basic.css?version=88107691fe">
+    <link href="${static!}/source/css/style.css" type="text/css" rel="stylesheet" />
 
     <#if is_post?? || is_sheet??>
         <link href="${static!}/source/plugins/prism/css/prism-${settings.code_pretty!'Default'}.css" type="text/css" rel="stylesheet" />
